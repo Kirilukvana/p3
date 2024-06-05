@@ -1,0 +1,96 @@
+body {
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+
+header{
+    background-color: red;
+    box-shadow: 0 5px 5px 5px ;
+    color: black;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+  background-color: red;
+  margin-right: 90px;
+}
+
+p{
+   font-size: 40px; 
+    margin-right: 80px;
+}
+
+div{
+     display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+    
+ img{
+    width: 200px;
+ }   
+
+
+
+ a:hover{
+    color: green;
+}
+
+p:hover{
+    box-shadow: 0 5px 5px 5px ;
+    background-color:lawngreen ;
+    color: red;
+    font-size:35px ;
+    transition: 1s ease-in;
+}
+
+.img1:hover{
+    transition: 3s linear;
+   box-shadow: 0 9px 9px 9px ;
+    color: lawngreen;
+}
+
+a:hover{
+    box-shadow: 0 5px 5px 5px ;
+    background-color:lawngreen ;
+    color: red;
+    font-size:35px ;
+    transition: 1s ease-in;
+}
+
+.img2:hover{
+    transition: 3s linear;
+   box-shadow: 0 9px 9px 9px ;
+    color: red;
+}
+
+.p1:hover{
+     box-shadow: 0 5px 5px 5px ;
+    background-color:red ;
+    color: lawngreen;
+    font-size:35px ;
+    transition: 1s ease-in;
+}
+
+.p2:hover{
+     box-shadow: 0 5px 5px 5px ;
+    background-color:lawngreen ;
+    color: red;
+    font-size:35px ;
+    transition: 1s ease-in;
+}
+
+header:hover{
+    background-color: lawngreen;
+    color: red;
+}
+
+table{
+    margin-bottom: 200px;
+}
